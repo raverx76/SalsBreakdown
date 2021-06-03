@@ -1,0 +1,13 @@
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.csproj.AssemblyReference.cache
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.AssemblyInfoInputs.cache
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.AssemblyInfo.cs
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.csproj.CoreCompileInputs.cache
+C:\src\Veritec\SalsBreakdown\bin\Debug\netcoreapp3.1\SalsBreakdown.exe
+C:\src\Veritec\SalsBreakdown\bin\Debug\netcoreapp3.1\SalsBreakdown.deps.json
+C:\src\Veritec\SalsBreakdown\bin\Debug\netcoreapp3.1\SalsBreakdown.runtimeconfig.json
+C:\src\Veritec\SalsBreakdown\bin\Debug\netcoreapp3.1\SalsBreakdown.runtimeconfig.dev.json
+C:\src\Veritec\SalsBreakdown\bin\Debug\netcoreapp3.1\SalsBreakdown.dll
+C:\src\Veritec\SalsBreakdown\bin\Debug\netcoreapp3.1\SalsBreakdown.pdb
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.dll
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.pdb
+C:\src\Veritec\SalsBreakdown\obj\Debug\netcoreapp3.1\SalsBreakdown.genruntimeconfig.cache

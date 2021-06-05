@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Utils\Round.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Utils\" />
   </ItemGroup>
 

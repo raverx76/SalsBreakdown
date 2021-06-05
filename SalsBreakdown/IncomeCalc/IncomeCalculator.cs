@@ -40,7 +40,7 @@ namespace SalsBreakdown.IncomeCalc {
         public decimal CalcSuperContibutionAmount(decimal grossPackage) {
             decimal super = this.SuperContributionPercent * grossPackage / (1 + this.SuperContributionPercent);
             //round up to nearest cent
-            return Math.Round(super, 2, MidpointRounding.AwayFromZero);
+            return Math.Round(super, 2, MidpointRounding.ToPositiveInfinity);
         }
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace SalsBreakdown.IncomeCalc {
         /// <returns></returns>
         public decimal CalcTaxableIncome(decimal grossPackage, bool forDeducations = false) {
             decimal tiValue = grossPackage - this.CalcSuperContibutionAmount(grossPackage);
-            
+
             if (forDeducations)//rounded down to the nearest dollar when calculated decuctions
                 return Math.Round(tiValue, 0, MidpointRounding.ToZero);
             else//round down to nearest cent
@@ -65,7 +65,7 @@ namespace SalsBreakdown.IncomeCalc {
         public decimal CalcPayPacket(decimal grossPackage, PayFrequency frequency, params decimal[] deductions) {
             decimal pay = this.CalcNetIncome(grossPackage, deductions) / (int)frequency;
             //round up to nearest cent
-            return Math.Round(pay, 2, MidpointRounding.AwayFromZero);
+            return Math.Round(pay, 2, MidpointRounding.ToPositiveInfinity);
         }
 
     }

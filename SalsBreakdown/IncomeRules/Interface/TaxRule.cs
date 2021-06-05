@@ -37,6 +37,7 @@ namespace SalsBreakdown.IncomeRules {
 
         public virtual decimal CalculateLevy(decimal taxableIncome) {
             decimal value =  (this.Amount ?? 0) + ((taxableIncome - (this.HasLowRangeOffset ? this.LowRange - 1 : 0)) * this.Percent);
+            //always round up
             return Math.Round(value, 0, MidpointRounding.ToPositiveInfinity);
         }
 
